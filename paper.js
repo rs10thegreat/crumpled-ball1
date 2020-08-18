@@ -7,7 +7,7 @@ class Paper{
             density:1.2
             }
 
-            this.body = Bodies.circle(x, y,50,options);
+            this.body = Bodies.circle(x, y,25,options);
             World.add(world, this.body);
           }
           display(){
@@ -16,7 +16,6 @@ class Paper{
             push();
             translate(pos.x, pos.y);
             rotate(angle);
-            circle(RADIUS);
             fill("purple");
             circle(0, 0,50);
             pop();
