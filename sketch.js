@@ -14,9 +14,9 @@ function setup() {
 
 	ground = new Ground(400,height,800,20);
 	paper = new Paper(300,690);
-	box1 = new Dustbin(600,690,200,20);
-	box2 = new Dustbin(500,650,20,100);
-	box3= new Dustbin(700,650,20,100);
+	box1 = new Dustbin(600,680,200,20);
+	box2 = new Dustbin(500,640,20,100);
+	box3= new Dustbin(700,640,20,100);
 
 	Engine.run(engine);
   
